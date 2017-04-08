@@ -1,0 +1,23 @@
+10
+/wiki/Seed5.html   /wiki/A5.html
+/wiki/Seed5.html   /wiki/B5.html
+/wiki/Seed5.html   /wiki/C5.html
+/wiki/C5.html   /wiki/H5.html
+/wiki/C5.html   /wiki/I5.html
+/wiki/C5.html   /wiki/A5.html
+/wiki/A5.html   /wiki/D5.html
+/wiki/A5.html   /wiki/E5.html
+/wiki/A5.html   /wiki/B5.html
+/wiki/A5.html   /wiki/Seed5.html
+/wiki/I5.html   /wiki/X.html
+/wiki/E5.html   /wiki/X.html
+/wiki/H5.html   /wiki/X.html
+/wiki/D5.html   /wiki/X.html
+/wiki/B5.html   /wiki/F5.html
+/wiki/B5.html   /wiki/G5.html
+/wiki/B5.html   /wiki/C5.html
+/wiki/G5.html   /wiki/L5.html
+/wiki/F5.html   /wiki/J5.html
+/wiki/F5.html   /wiki/K5.html
+/wiki/F5.html   /wiki/A5.html
+/wiki/F5.html   /wiki/C5.html

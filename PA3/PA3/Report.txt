@@ -1,0 +1,40 @@
+- The Data structure used to implement Weighted Q was a Linked list. 
+This allowed me to remove and insert in the middle of the list without having to make any array copy / shifts.
+
+- Pseudo code of my crawling algorithm. 
+
+Create File
+write max pages to first line of file
+url = seed url
+for i = 0 -> max pages {
+	try{
+		open connection with BASE_URL + url
+		record visited url
+		pageSource = the html as a string
+		pageSource = trim off the beginning of html up to the first "<p>"
+		
+		if pageSource contains no links
+			Write only URL to the file
+		else
+			while there are still links on the page {
+				grab the next link
+				
+				if the link does not contain "#" and ":" and
+					is allowed & is not the current url & is not already an edge.
+					
+					record edge for URL
+					println (url + space character + the link)
+					if page has not been visited {
+						weigh link
+						add it to the queue
+					}
+			}
+	} catch "can't connect" {
+		i = i-1
+	}
+	url = next url in the queue
+	sleep 100ms
+}
+
+
+
